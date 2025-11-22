@@ -6,7 +6,7 @@ Celem jest zbudowanie i ocena binarnego modelu klasyfikacji, który przewiduje 1
 **Zbiór danych**
 - Zestaw SUPPORT2 (Faza I badania SUPPORT)
 - Zawiera zmienne kliniczne, fizjologiczne i demograficzne związane z ryzykiem zgonu
-- Zmienna docelowa: death (0 = przeżył, 1 = zmarł)
+- Zmienna docelowa: **death** (0 = przeżył, 1 = zmarł)
   
 **Użyty model**
 - Support Vector Machine (SVM)
@@ -29,8 +29,8 @@ Celem jest zbudowanie i ocena binarnego modelu klasyfikacji, który przewiduje 1
 **Kluczowe wnioski**
 
 Model SVM z jądrem RBF uzyskał dobrą jakoś predykcji dla 180 - dniowej śmiertelności.
-Walidacja krzyżowa wykazała, że najlepszym hiperparametrem okazało się C = 0.1
-Model cechuje się dobrą skutecznością w wykrywaniu pacjentów wysokiego ryzyka i bardzo dobrą zdolnością separacji klas, choć występuje pewna liczba błędów.
+Walidacja krzyżowa wykazała, że najlepszym hiperparametrem okazało się **C = 0.1**
+Model cechuje się skutecznym wykrywaniem pacjentów wysokiego ryzyka i bardzo dobrą zdolnością separacji klas, choć nadal występuje pewna liczba błędów klasyfikacji.
 
 **Pliki**
-- support2.ipynb - pełny kod i analiza
+- **support2.ipynb** - pełny kod i analiza
