@@ -11,7 +11,8 @@ Celem jest zbudowanie i ocena binarnego modelu klasyfikacji, który przewiduje 1
 **Użyty model**
 - Support Vector Machine (SVM)
   
-**Metodologia**
+**Metodologia** 
+
   Projekt obejmuje pipeline ML:
   - eksploracja danych i analiza braków
   - preprocessing z użyciem ColumnTransformer(dla zmiennych numerycznych - mediana, dla zmiennych kategorycznych - najczęściej występująca wartość)
