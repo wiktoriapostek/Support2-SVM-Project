@@ -26,7 +26,11 @@ Celem jest zbudowanie i ocena binarnego modelu klasyfikacji, który przewiduje 1
 | **F1-score** | **0.8054** |
 | **ROC-AUC**  | **0.8429** |
 
-Model cechuje się dobrą skutecznością w wykrywaniu pacjentów wysokiego ryzyka i bardzo dobrą zdolnością separacji klas.
+**Kluczowe wnioski**
+
+Model SVM z jądrem RBF uzyskał dobrą jakoś predykcji dla 180 - dniowej śmiertelności.
+Walidacja krzyżowa wykazała, że najlepszym hiperparametrem okazało się C = 0.1
+Model cechuje się dobrą skutecznością w wykrywaniu pacjentów wysokiego ryzyka i bardzo dobrą zdolnością separacji klas, choć występuje pewna liczba błędów.
 
 **Pliki**
 - support2.ipynb - pełny kod i analiza
